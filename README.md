@@ -1,2 +1,11 @@
 # flink-datastream-example
-Simple kafka-flink datastream implementation for educational purposes
+
+### docker-compose
+
+```bash
+ docker-compose -f docker/docker-compose.yml up -d
+```
+
+### Kafka
+
+Use  [Offset Explorer (formerly Kafka Tool)](https://www.kafkatool.com/) to send messages with GUI.
